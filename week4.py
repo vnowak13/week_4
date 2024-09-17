@@ -36,4 +36,4 @@ sum(prices)
 sum(quantities)
 # Then, find the average cost of all items after rounding it to 2 decimal places.
 
-#################### END OF ADVANCED PROBLEM SET  -- end Bell Ringer  ####################
+#################### END OF ADVANCED PROBLEM SET  -- end Bell Ringer  #################### 
