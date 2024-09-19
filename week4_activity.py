@@ -69,9 +69,14 @@ print(text[0::3])
 # "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
 
 ##################################### String Methods#################################
-# String Methods Practice #1
+new_text = "this is a new text text text text string"
+print(new_text.count("text"))
+#String Methods Practice #1
 #slieds 12 -16
 # Print the following text in uppercase, using the specific string method:
+print(new_text.startswith("this"))
+print(new_text.endswith("string"))
+print(new_text.)
 # "Especially in electronic communications, writing in all caps is equivalent to yelling."
 # sentence = "Especially in electronic communications, writing in all caps is equivalent to yelling."
 
