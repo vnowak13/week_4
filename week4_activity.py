@@ -4,26 +4,47 @@
 ##########################Reviewing somethings
 
 # indexing strings -- slide 4
-my_text = 'this is a text'
+my_text = 'this is a text string '
 result = my_text  #get the index of the letter a
-print(result)
+print(result [0:4])
+#find the word text 
+print(result.find('text'))
+#find the index of the word text
+print(result[10:14])
+print(result.find('is'))
+print(result[5:7])
+#reverse the string
+# print(result[::-1])
+#get the last letter
+print(result[-1])
+print(result.find('string'))
+print(result[15:-1])
+#-1 means the substring doesn't exist
+#it prints out -1
+#index slicing is when you get a substring of a string
+#you can get a substring by specifying the starte and end index of a substring. The start inde is inclusive and the end is exclusive
 
 #get the index of the third letter from the end of the text
-
+print(result[-3])
 # find the index of the letter s
+print(result[-5])
 
 ###slide 5
 # string[start:stop:step]
 #example
-# text = "Hello, World!"
-# print(text[7:12])  # prints "World"
+text = "Hello, World!"
+print(text[7:12])  # prints "World"
 text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 # Get the substring CDE and put in a variable
-
-#get the first letter all the way to the 4th letter
+substring = text.find('CDE')
+print(substring)
+substring = text[2:5]
+#get the first letter all the way to the end of the string
+print(text[0:])
+#this gets the first letter to the last letter
 
 #get the first letter to the final letter and skip every 3rd letter
-
+print(text[0::3])
 # Built-in methods:
 # Python has a variety of built-in methods to work with substrings.
 
